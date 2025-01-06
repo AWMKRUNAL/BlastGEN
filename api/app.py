@@ -23,6 +23,9 @@ app.secret_key = 'your_secret_key'  # Set a secret key for security purposes
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+# Set instance path to a writable directory
+app.instance_path = '/tmp'
+
 db = SQLAlchemy(app)
 
 
