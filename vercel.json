@@ -15,7 +15,7 @@
       "src": "/(.*)",
       "dest": "api/app.py"
     }
-  },
+  ],
   "env": {
     "PYTHONUNBUFFERED": "1",
     "FLASK_ENV": "production",
