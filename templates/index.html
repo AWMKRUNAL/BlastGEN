@@ -129,9 +129,11 @@
     </script>
 </head>
 <body>
-    <header>
-        <img src="https://companieslogo.com/img/orig/ADANIPOWER.NS-1427c780.png?download-true.png" alt="Adani Logo">
-        <h1><span class="title-blast">Blast</span><span class="title-gen">GEN</span></h1>
+    <header class="bg-white dark:bg-gray-800 shadow-md p-5 flex justify-between items-center">
+    <h1 class="text-3xl font-extrabold tracking-tight mx-auto">BlastGEN</h1>
+    <button id="theme-toggle" class="bg-gray-300 dark:bg-gray-700 px-4 py-2 rounded transition duration-300">
+        Theme Toggle
+    </button>
     </header>
     <div class="container">
         <form method="post" action="/calculate" enctype="multipart/form-data">
